@@ -3,7 +3,6 @@ import googletrans
 
 
 def print_output(sentence):
-    print(googletrans.LANGUAGES)
     translator = Translator()
     supported = ["hi","or","bn","kn","mr","ne", "pa","gu","ta","te", "as"]
     translated =[]
